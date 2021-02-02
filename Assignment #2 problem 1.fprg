@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ABRAHAM.CISNEROS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-02 02:59:42 PM"/>
+        <attribute name="created" value="QUJSQUhBTS5DSVNORVJPUztOVVNaMjg4Mjk1Mjg7MjAyMS0wMi0wMjswMjo0NDowMCBQTTszMTc5"/>
+        <attribute name="edited" value="QUJSQUhBTS5DSVNORVJPUztOVVNaMjg4Mjk1Mjg7MjAyMS0wMi0wMjswMjo1OTo0MiBQTTsxOzMyOTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <declare name="product" type="Integer" array="False" size=""/>
+            <declare name="difference" type="Integer" array="False" size=""/>
+            <assign variable="difference" expression="num1 - num2"/>
+            <assign variable="sum" expression="num1 + num2"/>
+            <assign variable="product" expression="num1 * num2"/>
+            <output expression="difference" newline="True"/>
+            <output expression="sum" newline="True"/>
+            <output expression="product" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
