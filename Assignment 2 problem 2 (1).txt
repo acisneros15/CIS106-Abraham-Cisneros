@@ -1,0 +1,13 @@
+Function Main
+    Declare Integer Score1
+    Declare Integer Score2
+    Declare String Lastname
+    Declare Integer Average
+    
+    Input Score1
+    Input Score2
+    Input Lastname
+    Assign average = (score1 + score2)/2
+    Output Lastname
+    Output average
+End
