@@ -1,0 +1,15 @@
+Function Main
+    Declare Integer num1, num2
+    Declare Integer sum
+    Declare Integer product
+    Declare Integer difference
+    
+    Input num1
+    Input num2
+    Assign sum = num1 + num2
+    Assign product = num1 * num2
+    Assign difference = num1 - num2
+    Output sum
+    Output product
+    Output difference
+End
