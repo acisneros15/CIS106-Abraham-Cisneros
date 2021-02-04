@@ -1,0 +1,3 @@
+meal = int(input())
+tip = 0.15 * meal
+print(tip)
