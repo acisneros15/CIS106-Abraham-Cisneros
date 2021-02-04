@@ -1,0 +1,9 @@
+Function Main
+    Declare Integer gallons
+    Declare Integer miles
+    
+    Input miles
+    Input gallons
+    Assign gallons = miles / gallons
+    Output gallons
+End
