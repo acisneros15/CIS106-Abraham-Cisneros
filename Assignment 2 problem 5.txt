@@ -1,0 +1,6 @@
+item = int(input())
+tax = item * 0.07
+total = item + tax
+print(item)
+print(tax)
+print(total)
